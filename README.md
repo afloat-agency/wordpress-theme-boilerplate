@@ -30,6 +30,11 @@ Or install dependencies with NPM
     
     npm install
 
+Change devUrl in webpack.mix.js to match your development URL, this is for
+browserSync
+
+    const devUrl = 'http://yourdevserver.com'
+
 ## Usage
 
 ### Running the BrowserSync dev server
