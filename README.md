@@ -1,7 +1,7 @@
 # Afloats WordPress Theme Boilerplate (The non-SPA one)
 
 ## Features:
-  - SCSS (with auto-prefixing)
+  - SCSS (with auto-prefixing & Normalize CSS reset)
   - ES2015 JavaScript (with babel, webpack, support for .vue templates also)
   - BrowserSync live reloading and code injection
   - Sourcemaps
