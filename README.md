@@ -7,39 +7,46 @@
   - Sourcemaps
 
 ## Prerequisites:
-  - Node JS
-  - Yarn or NPM
-  - A computer
-  - A WordPress installation
+  - Node JS - https://nodejs.org/
+  - Yarn or NPM - https://yarnpkg.com/
+  - A computer - http://lmgtfy.com/?iie=1&q=What+is+a+computer
+  - A WordPress installation - https://wordpress.org/
 
 ## Install
   
-  // Clone this boilerplate in your WordPress themes folder (replace 'desired-theme-name' with your desired theme name)
-  git clone https://github.com/afloat-agency/wordpress-theme-boileplate desired-theme-name
+Clone this boilerplate in your WordPress themes folder (replace 'desired-theme-name' with your desired theme name)
 
-  // Change to the new theme directory
-  cd desired-theme-name
+    git clone https://github.com/afloat-agency/wordpress-theme-boilerplate desired-theme-name
 
-  // Install dependencies with Yarn
-  yarn
+Change to the new theme directory
 
-  // Or install dependencies with NPM
-  npm install
+    cd desired-theme-name
+
+Install dependencies with Yarn
+
+    yarn
+
+Or install dependencies with NPM
+    
+    npm install
 
 ## Usage
 
 ### Running the BrowserSync dev server
 
-  // Run the following in your theme folder. You can use ctrl-c to stop the server
-  npm run dev
+Run the following in your theme folder. You can use ctrl-c to stop the server
+    
+    npm run dev
 
 ### Building (non-production)
 
-  // In your theme folder
-  npm run build
+In your theme folder
+    
+    npm run build
 
 ### Building for production
 
-  // In your theme folder
-  npm run production
+In your theme folder
+    
+    npm run production
 
