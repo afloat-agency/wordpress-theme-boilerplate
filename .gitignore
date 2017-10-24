@@ -1,0 +1,8 @@
+node_modules
+dist
+vendor
+mix-manifest.json
+*.swo
+*.swp
+*~
+*.log

@@ -1,0 +1,36 @@
+{
+  "name": "wordpress-theme-boilerplate",
+  "version": "1.0.0",
+  "description": "A WordPress theme boilerplate using SCSS and Webpack and more!",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "build": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afloat-agency/wordpress-theme-boilerplate.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "scss",
+    "webpack"
+  ],
+  "author": "Afloat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afloat-agency/wordpress-theme-boilerplate/issues"
+  },
+  "homepage": "https://github.com/afloat-agency/wordpress-theme-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "laravel-mix": "^1.5.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}
