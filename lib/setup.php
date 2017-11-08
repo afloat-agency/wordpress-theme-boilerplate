@@ -45,6 +45,12 @@ function enqueueFrontEndAssets()
 
 
 /**
+ * Add extra image sizes
+ */
+add_image_size('extra-large', 1920, 1080);
+
+
+/**
  * Register theme options page if ACF is enabled
  */
 if (function_exists('acf_add_options_page')) {
