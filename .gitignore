@@ -6,3 +6,4 @@ mix-manifest.json
 *.swp
 *~
 *.log
+*.vscode
