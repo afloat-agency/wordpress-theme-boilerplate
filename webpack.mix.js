@@ -1,4 +1,4 @@
-const devUrl = 'http://theme.sam' // this should be your dev URL (http://theme.sam is mine)
+const devUrl = 'http://dev-server.com'
 const Mix = require('laravel-mix')
 
 Mix.sass('src/scss/app.scss', 'dist/css')
