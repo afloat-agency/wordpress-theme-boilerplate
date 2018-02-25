@@ -3,14 +3,14 @@
 ## Features:
 
 * SCSS (with auto-prefixing & Normalize CSS reset)
-* ES2015 JavaScript (with babel, webpack, support for React also)
+* ES2015 JavaScript (with Babel, Webpack, React)
 * BrowserSync live reloading and code injection
 * Sourcemaps
 
 ## Prerequisites:
 
 * Node JS - https://nodejs.org/
-* Yarn or NPM - https://yarnpkg.com/
+* Yarn - https://yarnpkg.com/
 * A computer - http://lmgtfy.com/?iie=1&q=What+is+a+computer
 * A WordPress installation - https://wordpress.org/
 
@@ -28,10 +28,6 @@ Install dependencies with Yarn
 
     yarn
 
-Or install dependencies with NPM
-
-npm install
-
 Change devUrl in webpack.mix.js to match your development URL, this is for
 browserSync
 
@@ -43,16 +39,16 @@ browserSync
 
 Run the following in your theme folder. You can use ctrl-c to stop the server
 
-npm run dev
+yarn dev
 
 ### Building (non-production)
 
 In your theme folder
 
-npm run build
+yarn build
 
 ### Building for production
 
 In your theme folder
 
-npm run production
+yarn production
