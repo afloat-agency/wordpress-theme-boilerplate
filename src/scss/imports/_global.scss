@@ -1,9 +1,20 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+    &--medium {
+        max-width: 1000px;
+    }
+
+    &--small {
+        max-width: 800px;
+    }
 }

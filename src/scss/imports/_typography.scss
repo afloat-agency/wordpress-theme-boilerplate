@@ -1,8 +1,18 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    color: $color--black;
+    font-weight: $font-weight--normal;
+    line-height: $line-height--normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.25;
+    line-height: $line-height--compact;
+    font-weight: $font-weight--bold;
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
