@@ -39,16 +39,16 @@ browserSync
 
 Run the following in your theme folder. You can use ctrl-c to stop the server
 
-yarn dev
+    yarn dev
 
 ### Building (non-production)
 
 In your theme folder
 
-yarn build
+    yarn build
 
 ### Building for production
 
 In your theme folder
 
-yarn production
+    yarn production
