@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/afloat-agency/wordpress-theme-boilerplate#readme",
   "devDependencies": {
+    "babel-preset-react": "^6.24.1",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^1.2.0",
     "laravel-mix": "^1.5.1",
@@ -32,6 +33,8 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

@@ -2,14 +2,9 @@ const devUrl = 'http://theme.sam' // this should be your dev URL (http://theme.s
 const Mix = require('laravel-mix')
 
 Mix.sass('src/scss/app.scss', 'dist/css')
-  .js('src/js/app.js', 'dist/js')
+  .react('src/js/app.js', 'dist/js')
   .browserSync({
     proxy: devUrl,
-    files: [
-      '**/*.php',
-      'dist/css/*.css',
-      'dist/js/*.js',
-      'static/*'
-    ]
+    files: ['**/*.php', 'dist/css/*.css', 'dist/js/*.js', 'static/*']
   })
   .sourceMaps()
